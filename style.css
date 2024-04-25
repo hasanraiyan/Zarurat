@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   color: rgb(255, 255, 255);
   background-color: #ffffff;
   font-size: 1rem;
+  background-color: black;
 }
 
 header {
@@ -93,7 +95,7 @@ nav .btn {
 
 /* container main data */
 .containers {
-  background-color: #fff;
+  background-color: #000000;
   padding: 10px;
   margin-top: 5%;
 }
@@ -102,7 +104,7 @@ nav .btn {
   background-color: black;
   padding: 10px;
 }
-.container ul {
+.container .profiles {
   display: flex;
   flex-direction: rows;
   text-align: center;
@@ -112,16 +114,16 @@ nav .btn {
   /* padding: 0px;
     margin: 0px; */
 }
-.container ul li {
+.container .profiles .profile {
   cursor: pointer;
 }
-.container ul li img {
+.container .profiles .profile img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
   border: 2px double white;
 }
-.container ul li img:hover {
+.container .profiles .profile img:hover {
   transform: scale(1.1);
 }
 
@@ -141,12 +143,18 @@ nav .btn {
   top: 25%;
   width: 40px;
   height: 100px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+  color: transparent;
 
+}
+.container.ads .left:hover ,.container.ads .right:hover{
+    background-color: rgba(0, 0, 0, 100);
+    color: white;
 }
 .container.ads .left {
     border-top-right-radius: 8px;
@@ -198,4 +206,11 @@ nav .btn {
     height: 200px;
     border-radius: 8px;
     
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    padding-left: 4em;
+    /* text-align: center; */
 }
