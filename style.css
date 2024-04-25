@@ -125,6 +125,7 @@ nav .btn {
   background-color: aqua;
   background-image: url(./images/random_image.png);
   padding: 0;
+  cursor: pointer;
 }
 .container.ads .left ,.container.ads .right{
   position: relative;
@@ -136,6 +137,7 @@ nav .btn {
   text-align: center;
   justify-content: center;
   align-items: center;
+
 }
 .container.ads .left {
     border-top-right-radius: 8px;
@@ -147,4 +149,23 @@ nav .btn {
 }
 .container.ads .left i,.container.ads .right i{
     color: rgb(255, 255, 255);
+}
+.container.electrician{
+    margin-top: 20px;
+    padding: 1rem;
+}
+/* .container.electrician .boxes {
+    margin-top: 2rem;
+} */
+.boxes{
+    margin-top: 2rem;
+    display: flex;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+.boxes .box{
+    width: 200px;
+    height: 252px;
+    background-color: red;
+    border: 3px solid blue;
 }
