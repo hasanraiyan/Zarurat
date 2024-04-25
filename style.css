@@ -65,6 +65,12 @@ header nav .search i {
   font-size: 18px;
   margin-right: 10px;
 }
+header{
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 0;
+}
 .navbar a {
   align-items: center;
   font-size: 21px;
@@ -87,6 +93,7 @@ nav .btn {
 .containers {
   background-color: #fff;
   padding: 10px;
+  margin-top: 5%;
 }
 /* container */
 .container {
@@ -150,7 +157,7 @@ nav .btn {
 .container.ads .left i,.container.ads .right i{
     color: rgb(255, 255, 255);
 }
-.container.electrician{
+.container.chl{
     margin-top: 20px;
     padding: 1rem;
 }
