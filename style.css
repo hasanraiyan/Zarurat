@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-a:hover,a{
+a:hover,a {
     text-decoration: none ;
 
 }
@@ -17,6 +17,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: black;
+    border: 2px solid rebeccapurple;
 }
 
 header nav{
@@ -37,7 +38,6 @@ header nav{
 
 header nav .search{
     border:2px solid rgb(255, 255, 255);
-    /* outline: 2px solid rgb(131, 103, 103); */
     border-radius: 40px;
     font-size: 1.5rem;
     display: flex;
@@ -73,7 +73,7 @@ header nav .search i {
 }
 .navbar a i, .navbar a span{
     color: rgb(255, 255, 255);
-    /* padding: 10px; */
+
     padding-right: 6px;
 }
 nav .btn{
@@ -95,12 +95,18 @@ nav .btn{
     list-style: none;
     padding: 0px;
     margin: 0px;
+
 }
 .container ul li{
     cursor: pointer;
+    
 }
 .container ul li img{
     width: 90px;
+    height: 90px;
     border-radius: 50%;
-
+    
+}
+.container ul li img:hover{
+    transform: scale(1.1);
 }
