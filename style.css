@@ -7,7 +7,8 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: #ffffff;
   font-size: 1rem;
 }
 
@@ -166,11 +167,14 @@ nav .btn {
     margin-top: 2rem;
 } */
 .boxes{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     padding: 1.5rem;
-    gap: 1.5rem;
+    justify-content: space-around;
+    
 }
+
+
 .boxes .box{
     width: 200px;
     height: 252px;
@@ -181,6 +185,7 @@ nav .btn {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
     gap: 1rem;
 
     /* border-radius: 10px; */
