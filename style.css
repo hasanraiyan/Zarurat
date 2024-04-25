@@ -2,35 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-a:hover,a {
     text-decoration: none ;
-
 }
 
 body{
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
     color: white;
+    font-size: 1rem;
 }
 
 header{
     display: flex;
     flex-direction: column;
     background-color: black;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
 }
+/* navbar */
 
 header nav{
-    margin: 10px;
+    padding: 12px 28px;
     display: flex;
     max-height:60px; 
     flex-direction: row;
-    background-color: black;
+    background-color:black;
     justify-content: space-between;
     align-items: center;
     color: aliceblue;
     margin-right: 15px;
-    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid red; */
     padding-bottom: 10px;
     padding-left: 20px;
     margin-bottom: 0;
@@ -51,10 +50,10 @@ header nav .search{
 }
 
 header nav .search input{
-    width: 90%;
+   width: 90%;
    margin: 2px;
    margin-left: 10px;
-   font-size: 1.5rem;
+   font-size: 1.3rem;
    padding: 5px;
    background-color: transparent;
    border: none;
@@ -63,7 +62,7 @@ header nav .search input{
 }
 
 header nav .search i {
-    font-size: 21px;
+    font-size: 18px;
     margin-right: 10px;
 
 }
@@ -83,7 +82,15 @@ nav .btn{
     background-color: red;
     cursor: pointer;
 }
+
+/* container main data */
+.containers{
+    background-color: #fff;
+    padding: 10px;
+}
+/* container */
 .container{
+    background-color: black;
     padding: 10px;
 }
 .container ul {
@@ -93,8 +100,8 @@ nav .btn{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    padding: 0px;
-    margin: 0px;
+    /* padding: 0px;
+    margin: 0px; */
 
 }
 .container ul li{
@@ -105,6 +112,7 @@ nav .btn{
     width: 90px;
     height: 90px;
     border-radius: 50%;
+    border: 2px double white;
     
 }
 .container ul li img:hover{
